@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
-// let url="mongodb+srv://kyawzaywin:heartvirus@cluster0-tyllf.mongodb.net/test?retryWrites=true&w=majority";
-// let url ="mongodb+srv://kyawzaywin:kzw1234@cluster0-d7ykp.mongodb.net/test?retryWrites=true&w=majority";           //place your db name
+
+// let url ="mongodb+srv://kyawzaywin:kzw1234567@cluster0-d7ykp.mongodb.net/test?retryWrites=true&w=majority";           //place your db name
 let url = "mongodb://localhost:27017/myDBnewblabla";   
 const connect = mongoose.connect(url, { useNewUrlParser: true });
 const autoIncrement = require('mongoose-auto-increment');
